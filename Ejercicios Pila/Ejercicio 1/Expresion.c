@@ -15,6 +15,7 @@ PILA crearPila(){
     }
 
     S -> tope = -1;
+    return S;
 }
 void apilar(PILA S, char e){
     if(S -> tope == TAMPILA - 1){
