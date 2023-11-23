@@ -17,9 +17,9 @@ COLA crearCola(){
 }
 int es_vaciaCola(COLA C){
     if(C -> tam == 0){
-        return FALSE;
-    }else{
         return TRUE;
+    }else{
+        return FALSE;
     }
 }
 int sig(int i){
